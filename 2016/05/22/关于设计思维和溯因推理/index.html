@@ -1,0 +1,581 @@
+<!doctype html>
+
+
+
+  
+
+
+<html class="theme-next muse use-motion">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/vendors/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/vendors/font-awesome/css/font-awesome.min.css?v=4.4.0" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="设计,思维," />
+
+
+
+
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.0.1" />
+
+
+
+
+
+
+<meta name="description" content="《美则传奇》有一段话意思是说，设计思维与传统思维的不同在于，传统思维主要运用大家熟知的演绎推理和归纳推理，但设计思维用的是第三种：溯因推理。
+碰巧读了《哲学家都干了些什么》，对演绎vs归纳在哲学上的论战颇有印象，同时确实也孤陋寡闻，之前没有听过这第三个思维方法，于是遍寻网文，总结大意如下：
+溯因推理，Aductive reasoning：初看挺像归纳法，从观察的现象和结果出发进行思考，但归纳法仅得">
+<meta property="og:type" content="article">
+<meta property="og:title" content="关于设计思维和溯因推理">
+<meta property="og:url" content="http://yoursite.com/2016/05/22/关于设计思维和溯因推理/index.html">
+<meta property="og:site_name" content="迎波扬帆的航海日志">
+<meta property="og:description" content="《美则传奇》有一段话意思是说，设计思维与传统思维的不同在于，传统思维主要运用大家熟知的演绎推理和归纳推理，但设计思维用的是第三种：溯因推理。
+碰巧读了《哲学家都干了些什么》，对演绎vs归纳在哲学上的论战颇有印象，同时确实也孤陋寡闻，之前没有听过这第三个思维方法，于是遍寻网文，总结大意如下：
+溯因推理，Aductive reasoning：初看挺像归纳法，从观察的现象和结果出发进行思考，但归纳法仅得">
+<meta property="og:updated_time" content="2016-05-22T13:31:34.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="关于设计思维和溯因推理">
+<meta name="twitter:description" content="《美则传奇》有一段话意思是说，设计思维与传统思维的不同在于，传统思维主要运用大家熟知的演绎推理和归纳推理，但设计思维用的是第三种：溯因推理。
+碰巧读了《哲学家都干了些什么》，对演绎vs归纳在哲学上的论战颇有印象，同时确实也孤陋寡闻，之前没有听过这第三个思维方法，于是遍寻网文，总结大意如下：
+溯因推理，Aductive reasoning：初看挺像归纳法，从观察的现象和结果出发进行思考，但归纳法仅得">
+
+
+
+<script type="text/javascript" id="hexo.configuration">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    scheme: 'Muse',
+    sidebar: {"position":"left","display":"post"},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: 0,
+      author: '博主'
+    }
+  };
+</script>
+
+  <title> 关于设计思维和溯因推理 | 迎波扬帆的航海日志 </title>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-meta ">
+  
+
+  <div class="custom-logo-site-title">
+    <a href="/"  class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <span class="site-title">迎波扬帆的航海日志</span>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+  <p class="site-subtitle"></p>
+</div>
+
+<div class="site-nav-toggle">
+  <button>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+  </button>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                关于设计思维和溯因推理
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2016-05-22T21:24:26+08:00" content="2016-05-22">
+              2016-05-22
+            </time>
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2016/05/22/关于设计思维和溯因推理/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/05/22/关于设计思维和溯因推理/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p>《美则传奇》有一段话意思是说，设计思维与传统思维的不同在于，传统思维主要运用大家熟知的演绎推理和归纳推理，但设计思维用的是第三种：溯因推理。</p>
+<p>碰巧读了《哲学家都干了些什么》，对演绎vs归纳在哲学上的论战颇有印象，同时确实也孤陋寡闻，之前没有听过这第三个思维方法，于是遍寻网文，总结大意如下：</p>
+<p><a href="https://zh.wikipedia.org/wiki/%E6%BA%AF%E5%9B%A0%E6%8E%A8%E7%90%86" target="_blank" rel="external">溯因推理，Aductive reasoning</a>：初看挺像归纳法，从观察的现象和结果出发进行思考，但归纳法仅得出结论不做一般性解释，而溯因法会对现象尝试进行合理的深入解释。这么一来，似乎在溯因法里看到一些演绎法的影子，而它和演绎法的不同在于，演绎是根据事实和规律得出结果，溯因是根据结果和规律得出事实；一个是看到大千世界无数的现象并尝试合理的解释得出可能的事实公理，一个是从既有的规律和事实公理推演出可能发生的结果。好吧，神马逻辑学和哲学给我到此为止！虽说本人具备通关黑暗之魂1，2，3的韧商，不过啃这些内容也会烧宝宝的脑，更别说写出来。</p>
+<p>那么按照上面《美则传奇》的说法，怎么理解设计这个事情呢？索性生搬硬套的想想看：如果把设计作为一门科学来研究，怎么才能做出牛x的设计？（理工科的脑袋没办法，大神们的灵感，神启，之类实在无缘，咱就老老实实算出来）不考虑怎么灵光一闪打造出一款华丽如西斯廷教堂穹顶般的应用，亦或是玩盖房子盖出我的世界像素风，只是琢磨琢磨怎么能够量产，打包，流水线式的搞设计（设计师轻拍…） </p>
+<ul>
+<li><p>归纳法，不停的观察各种用户界面，只给出“这个好用”,“那个难用”,“这个cool”,”那个low”，等等这样的评判，给出评判就完事了，下次自己做个设计时好像还是没个路子;</p>
+</li>
+<li><p>演绎法…… 好吧举个栗子，你用欧几里得的几何原本的10条公理公设（极简真美），来给我分分钟画个向日葵。</p>
+</li>
+</ul>
+<p>看出苗头了吗？设计既不是不假思索的拼装已有的现成的东西，也不能凭既有知识干想就能憋出个大招。</p>
+<p>那么溯因法之于设计的直观解释我们是不是可以这样凑合理解一下：</p>
+<ul>
+<li><p>设计首先是”欣赏”:<br>先从各种体验、素材中，找到那些美的，精妙的，和谐的，愉悦的，聪明的…之类之类的东东，总之多多益善，留意这些现象，并准备好向上追溯合理系统的解释；</p>
+</li>
+<li><p>设计其次是”创造”:<br>第一步直觉和感性爽过之后，再费点劲，在理性中对这些东东花时间和精力，合理细致的分析解释一番，这个过程要注意多烧烧脑，拿出足够的理由得出漂亮的解释，这些解释就是你的设计理念，作为owner的你，烧脑烧的好岂不是更有面子。这些设计理念和准则最终就是你造出全新设计作品的弹药。</p>
+</li>
+</ul>
+<p>或许很多时候，设计是灵感突现后，为其自圆其说，但这个思考的套路应该会促成灵感这种东西产生的概率吧。</p>
+<p>嗯，大概就是这样吧，困了。</p>
+
+      
+    </div>
+
+    <div>
+      
+        
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/设计/" rel="tag">#设计</a>
+          
+            <a href="/tags/思维/" rel="tag">#思维</a>
+          
+        </div>
+      
+
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+      <div class="ds-thread" data-thread-key="2016/05/22/关于设计思维和溯因推理/"
+           data-title="关于设计思维和溯因推理" data-url="http://yoursite.com/2016/05/22/关于设计思维和溯因推理/">
+      </div>
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel ">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="/images/ship.jpg"
+               alt="Bryant Yang" />
+          <p class="site-author-name" itemprop="name">Bryant Yang</p>
+          <p class="site-description motion-element" itemprop="description"></p>
+        </div>
+        <nav class="site-state motion-element">
+          <div class="site-state-item site-state-posts">
+            <a href="/archives">
+              <span class="site-state-item-count">1</span>
+              <span class="site-state-item-name">日志</span>
+            </a>
+          </div>
+
+          
+
+          
+            <div class="site-state-item site-state-tags">
+              <a href="/tags">
+                <span class="site-state-item-count">2</span>
+                <span class="site-state-item-name">标签</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        
+
+        <div class="links-of-author motion-element">
+          
+        </div>
+
+        
+        
+
+        
+        
+
+      </section>
+
+      
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+            
+              
+            
+            
+              <p class="post-toc-empty">此文章未包含目录</p>
+            
+          </div>
+        </section>
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy; 
+  <span itemprop="copyrightYear">2016</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Bryant Yang</span>
+</div>
+
+
+
+        
+
+        
+      </div>
+    </footer>
+
+    <div class="back-to-top">
+      <i class="fa fa-arrow-up"></i>
+    </div>
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <script type="text/javascript" src="/vendors/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/vendors/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/vendors/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/vendors/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/vendors/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/vendors/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.0.1"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.0.1"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.0.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.0.1"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.0.1"></script>
+
+
+
+  
+
+  
+    
+  
+
+  <script type="text/javascript">
+    var duoshuoQuery = {short_name:"bravewaves"};
+    (function() {
+      var ds = document.createElement('script');
+      ds.type = 'text/javascript';ds.async = true;
+      ds.id = 'duoshuo-script';
+      ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+      ds.charset = 'UTF-8';
+      (document.getElementsByTagName('head')[0]
+      || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+  </script>
+
+  
+    
+  
+
+
+
+
+
+  
+  
+  
+
+  
+
+  
+
+</body>
+</html>
